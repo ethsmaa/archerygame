@@ -35,6 +35,11 @@ class Program
         Player player = new Player();
         Random random = new Random();
 
+
+
+
+
+
         player.name = name;
         player.x = random.Next(-10, 11);
         player.y = random.Next(-10, 11);
